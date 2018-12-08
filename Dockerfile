@@ -1,4 +1,4 @@
-FROM raymondmm/node-red-homekit:arm64v8
+FROM raymondmm/node-red-homekit
 
 
 RUN npm install node-red-contrib-sonoff-tasmota \
