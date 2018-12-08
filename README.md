@@ -1,5 +1,5 @@
 # node-red-homekit
-Node-Red Docker image built from raymondmm/node-red-homekit:arm64v8.
+Node-Red Docker image built from raymondmm/node-red-homekit.
 
 This image installs the following nodes through NPM:<br>
  node-red-contrib-blynk-ws<br>
