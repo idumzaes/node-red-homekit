@@ -1,10 +1,10 @@
 # node-red-homekit
 Docker image for Node-Red with Homekit integration.
 
-This image installs the following nodes through NPM:
- node-red-contrib-blynk-ws
- node-red-contrib-os
- node-red-contrib-cpu
+This image installs the following nodes through NPM:<br>
+ node-red-contrib-blynk-ws<br>
+ node-red-contrib-os<br>
+ node-red-contrib-cpu<br>
  node-red-dashboard
  
 ## Volume Persistance
