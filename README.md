@@ -18,4 +18,4 @@ Persistence is recommended to save node-red data directory outside the container
 
 Run Container with the following command:
 
-`docker run -d --network host --name node-red-homekit -e HOST_NAME=$HOSTNAME -v ~/node_red_data:/data idumzaes/node-red-homekit`
+`docker run -dit --restart unless-stopped --network host --name node-red-homekit -e HOST_NAME=$HOSTNAME -v ~/node_red_data:/data idumzaes/node-red-homekit`
