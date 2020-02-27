@@ -1,4 +1,4 @@
-FROM raymondmm/node-red-homekit:2.0.0-1.0.2-12-minimal-arm64v8
+FROM raymondmm/node-red-homekit:latest-minimal-arm64v8
 
 RUN npm install node-red-contrib-sonoff-tasmota \
  node-red-contrib-blynk-ws \
