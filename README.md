@@ -2,6 +2,7 @@
 Node-Red Docker image built from raymondmm/node-red-homekit.
 
 This image installs the following nodes through NPM:<br>
+ node-red-contrib-tasmota<br>
  node-red-contrib-blynk-ws<br>
  node-red-contrib-os<br>
  node-red-contrib-cpu<br>
