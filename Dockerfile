@@ -1,4 +1,4 @@
-FROM nrchkb/node-red-homekit:1.0.0-1.1.1-12-minimal-arm64v8
+FROM nrchkb/node-red-homekit:1.4.0-1.2.2-12-minimal-arm64v8
 
 RUN npm install node-red-contrib-tasmota \
  node-red-contrib-os \
