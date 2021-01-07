@@ -17,6 +17,13 @@ Persistence is recommended to save node-red data directory outside the container
 
 `chown -R node-red:node-red ~/node_red_data` // Sets the ownership to user node-red.
 
-Run Container with the following command:
+## Updating
+Update Dockerfile with new version of nrchkb/node-red-homekit minimal-arm64v8 image. Then run the following commands.
+
+`sudo docker stop idumzaes/node-red-homekit && sudo docker rm idumzaes/node-red-homekit` // Stop and Remove current container. 
+
+`sudo docker build . -t idumzaes/node-red-homekit` // Rebuild with new Dockerfile. 
+
+## Run Container with the following command:
 
 `docker run -dit --restart unless-stopped --network host --name node-red-homekit -e HOST_NAME=$HOSTNAME -v ~/node_red_data:/data idumzaes/node-red-homekit`
