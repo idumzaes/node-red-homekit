@@ -22,6 +22,8 @@ Update Dockerfile with new version of nrchkb/node-red-homekit minimal-arm64v8 im
 
 `sudo docker stop idumzaes/node-red-homekit && sudo docker rm idumzaes/node-red-homekit` // Stop and Remove current container. 
 
+`sudo docker rmi idumzaes/node-red-homekit` // Remove old image before building new one.
+
 `sudo docker build . -t idumzaes/node-red-homekit` // Rebuild with new Dockerfile. 
 
 ## Run Container with the following command:
